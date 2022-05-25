@@ -1,0 +1,6 @@
+/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/ThinkCPP.dir
+/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/main.dir
+/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/edit_cache.dir
+/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/rebuild_cache.dir
+/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/ThinkCPP_autogen.dir
+/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/main_autogen.dir
