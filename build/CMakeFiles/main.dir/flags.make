@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/zheng/Desktop/Notes/thinkingC++/build -I/Users/zheng/Desktop/Notes/thinkingC++ -I/Users/zheng/Desktop/Notes/thinkingC++/build/main_autogen/include -I/Users/zheng/Desktop/Notes/thinkingC++/include
+CXX_INCLUDES = -I/Users/zheng/Desktop/Notes/Algorith4thC++/build -I/Users/zheng/Desktop/Notes/Algorith4thC++ -I/Users/zheng/Desktop/Notes/Algorith4thC++/build/main_autogen/include -I/Users/zheng/Desktop/Notes/Algorith4thC++/include
 
 CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -std=gnu++11
 

@@ -1,7 +1,0 @@
-CMakeLists.txt
-build/CMakeFiles/3.23.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
-build/ThinkCPP_autogen/moc_predefs.h
-build/ThinkCPP_autogen/mocs_compilation.cpp
-build/main_autogen/moc_predefs.h
-build/main_autogen/mocs_compilation.cpp
-example/main.cpp

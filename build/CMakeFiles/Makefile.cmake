@@ -85,15 +85,21 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/ThinkCPP_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/Algorithm_autogen.dir/AutogenInfo.json"
   "CMakeFiles/main_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/unionfind_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/sortMain_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ThinkCPP.dir/DependInfo.cmake"
+  "CMakeFiles/Algorithm.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
-  "CMakeFiles/ThinkCPP_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/unionfind.dir/DependInfo.cmake"
+  "CMakeFiles/sortMain.dir/DependInfo.cmake"
+  "CMakeFiles/Algorithm_autogen.dir/DependInfo.cmake"
   "CMakeFiles/main_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/unionfind_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/sortMain_autogen.dir/DependInfo.cmake"
   )

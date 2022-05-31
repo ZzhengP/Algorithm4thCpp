@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zheng/Desktop/Notes/thinkingC++
+# Install script for directory: /Users/zheng/Desktop/Notes/Algorith4thC++
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/zheng/Desktop/Notes/thinkingC++/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zheng/Desktop/Notes/Algorith4thC++/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

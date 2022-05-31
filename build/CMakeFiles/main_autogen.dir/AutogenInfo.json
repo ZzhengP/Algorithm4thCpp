@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "/Users/zheng/Desktop/Notes/thinkingC++/build/main_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/zheng/Desktop/Notes/thinkingC++/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/zheng/Desktop/Notes/thinkingC++/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/zheng/Desktop/Notes/thinkingC++",
+	"BUILD_DIR" : "/Users/zheng/Desktop/Notes/Algorith4thC++/build/main_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/zheng/Desktop/Notes/Algorith4thC++/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/zheng/Desktop/Notes/Algorith4thC++/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/zheng/Desktop/Notes/Algorith4thC++",
 	"CMAKE_EXECUTABLE" : "/usr/local/Cellar/cmake/3.23.1/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/Users/zheng/Desktop/Notes/thinkingC++/CMakeLists.txt",
-		"/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/3.23.1/CMakeSystem.cmake",
+		"/Users/zheng/Desktop/Notes/Algorith4thC++/CMakeLists.txt",
+		"/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/3.23.1/CMakeSystem.cmake",
 		"/usr/local/Cellar/cmake/3.23.1/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/local/Cellar/cmake/3.23.1/share/cmake/Modules/Platform/Darwin-Initialize.cmake",
-		"/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/3.23.1/CMakeCXXCompiler.cmake",
+		"/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/3.23.1/CMakeCXXCompiler.cmake",
 		"/usr/local/Cellar/cmake/3.23.1/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/local/Cellar/cmake/3.23.1/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/usr/local/Cellar/cmake/3.23.1/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -131,13 +131,13 @@
 		"/usr/local/Cellar/cmake/3.23.1/share/cmake/Modules/CMakeParseArguments.cmake",
 		"/usr/local/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/Users/zheng/Desktop/Notes/thinkingC++",
+	"CMAKE_SOURCE_DIR" : "/Users/zheng/Desktop/Notes/Algorith4thC++",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/zheng/Desktop/Notes/thinkingC++/build/main_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/zheng/Desktop/Notes/thinkingC++/build/main_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/Users/zheng/Desktop/Notes/Algorith4thC++/build/main_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/zheng/Desktop/Notes/Algorith4thC++/build/main_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -148,9 +148,9 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/Users/zheng/Desktop/Notes/thinkingC++/build",
-		"/Users/zheng/Desktop/Notes/thinkingC++",
-		"/Users/zheng/Desktop/Notes/thinkingC++/include",
+		"/Users/zheng/Desktop/Notes/Algorith4thC++/build",
+		"/Users/zheng/Desktop/Notes/Algorith4thC++",
+		"/Users/zheng/Desktop/Notes/Algorith4thC++/include",
 		"/Library/Developer/CommandLineTools/usr/include/c++/v1",
 		"/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include",
 		"/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include",
@@ -167,29 +167,33 @@
 		"-c",
 		"/usr/local/Cellar/cmake/3.23.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/zheng/Desktop/Notes/thinkingC++/build/main_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/zheng/Desktop/Notes/Algorith4thC++/build/main_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/Users/zheng/Desktop/Notes/thinkingC++/build/ThinkCPP_autogen/mocs_compilation.cpp"
+		"/Users/zheng/Desktop/Notes/Algorith4thC++/build/Algorithm_autogen/mocs_compilation.cpp"
 	],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 2,
-	"PARSE_CACHE_FILE" : "/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/main_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/main_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/local/share/qt/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 2,
-	"SETTINGS_FILE" : "/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/main_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/main_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/Users/zheng/Desktop/Notes/thinkingC++/example/main.cpp", "MU", null ]
+		[
+			"/Users/zheng/Desktop/Notes/Algorith4thC++/example/main.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"/Users/zheng/Desktop/Notes/thinkingC++/build/ThinkCPP_autogen/mocs_compilation.cpp"
+		"/Users/zheng/Desktop/Notes/Algorith4thC++/build/Algorithm_autogen/mocs_compilation.cpp"
 	],
 	"UIC_UI_FILES" : [],
 	"VERBOSITY" : 0

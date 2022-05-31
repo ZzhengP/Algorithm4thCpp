@@ -1,6 +1,10 @@
-/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/ThinkCPP.dir
-/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/main.dir
-/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/edit_cache.dir
-/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/rebuild_cache.dir
-/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/ThinkCPP_autogen.dir
-/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/main_autogen.dir
+/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/Algorithm.dir
+/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/main.dir
+/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/unionfind.dir
+/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/sortMain.dir
+/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/edit_cache.dir
+/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/rebuild_cache.dir
+/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/Algorithm_autogen.dir
+/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/main_autogen.dir
+/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/unionfind_autogen.dir
+/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/sortMain_autogen.dir

@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.23.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zheng/Desktop/Notes/thinkingC++
+CMAKE_SOURCE_DIR = /Users/zheng/Desktop/Notes/Algorith4thC++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zheng/Desktop/Notes/thinkingC++/build
+CMAKE_BINARY_DIR = /Users/zheng/Desktop/Notes/Algorith4thC++/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles /Users/zheng/Desktop/Notes/thinkingC++/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles /Users/zheng/Desktop/Notes/Algorith4thC++/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ThinkCPP
+# Target rules for targets named Algorithm
 
 # Build rule for target.
-ThinkCPP: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ThinkCPP
-.PHONY : ThinkCPP
+Algorithm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Algorithm
+.PHONY : Algorithm
 
 # fast build rule for target.
-ThinkCPP/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThinkCPP.dir/build.make CMakeFiles/ThinkCPP.dir/build
-.PHONY : ThinkCPP/fast
+Algorithm/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
+.PHONY : Algorithm/fast
 
 #=============================================================================
 # Target rules for targets named main
@@ -143,17 +143,43 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named ThinkCPP_autogen
+# Target rules for targets named unionfind
 
 # Build rule for target.
-ThinkCPP_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ThinkCPP_autogen
-.PHONY : ThinkCPP_autogen
+unionfind: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unionfind
+.PHONY : unionfind
 
 # fast build rule for target.
-ThinkCPP_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThinkCPP_autogen.dir/build.make CMakeFiles/ThinkCPP_autogen.dir/build
-.PHONY : ThinkCPP_autogen/fast
+unionfind/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unionfind.dir/build.make CMakeFiles/unionfind.dir/build
+.PHONY : unionfind/fast
+
+#=============================================================================
+# Target rules for targets named sortMain
+
+# Build rule for target.
+sortMain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sortMain
+.PHONY : sortMain
+
+# fast build rule for target.
+sortMain/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sortMain.dir/build.make CMakeFiles/sortMain.dir/build
+.PHONY : sortMain/fast
+
+#=============================================================================
+# Target rules for targets named Algorithm_autogen
+
+# Build rule for target.
+Algorithm_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Algorithm_autogen
+.PHONY : Algorithm_autogen
+
+# fast build rule for target.
+Algorithm_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm_autogen.dir/build.make CMakeFiles/Algorithm_autogen.dir/build
+.PHONY : Algorithm_autogen/fast
 
 #=============================================================================
 # Target rules for targets named main_autogen
@@ -168,29 +194,55 @@ main_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_autogen.dir/build.make CMakeFiles/main_autogen.dir/build
 .PHONY : main_autogen/fast
 
-ThinkCPP_autogen/mocs_compilation.o: ThinkCPP_autogen/mocs_compilation.cpp.o
-.PHONY : ThinkCPP_autogen/mocs_compilation.o
+#=============================================================================
+# Target rules for targets named unionfind_autogen
+
+# Build rule for target.
+unionfind_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 unionfind_autogen
+.PHONY : unionfind_autogen
+
+# fast build rule for target.
+unionfind_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unionfind_autogen.dir/build.make CMakeFiles/unionfind_autogen.dir/build
+.PHONY : unionfind_autogen/fast
+
+#=============================================================================
+# Target rules for targets named sortMain_autogen
+
+# Build rule for target.
+sortMain_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sortMain_autogen
+.PHONY : sortMain_autogen
+
+# fast build rule for target.
+sortMain_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sortMain_autogen.dir/build.make CMakeFiles/sortMain_autogen.dir/build
+.PHONY : sortMain_autogen/fast
+
+Algorithm_autogen/mocs_compilation.o: Algorithm_autogen/mocs_compilation.cpp.o
+.PHONY : Algorithm_autogen/mocs_compilation.o
 
 # target to build an object file
-ThinkCPP_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThinkCPP.dir/build.make CMakeFiles/ThinkCPP.dir/ThinkCPP_autogen/mocs_compilation.cpp.o
-.PHONY : ThinkCPP_autogen/mocs_compilation.cpp.o
+Algorithm_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Algorithm_autogen/mocs_compilation.cpp.o
+.PHONY : Algorithm_autogen/mocs_compilation.cpp.o
 
-ThinkCPP_autogen/mocs_compilation.i: ThinkCPP_autogen/mocs_compilation.cpp.i
-.PHONY : ThinkCPP_autogen/mocs_compilation.i
+Algorithm_autogen/mocs_compilation.i: Algorithm_autogen/mocs_compilation.cpp.i
+.PHONY : Algorithm_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-ThinkCPP_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThinkCPP.dir/build.make CMakeFiles/ThinkCPP.dir/ThinkCPP_autogen/mocs_compilation.cpp.i
-.PHONY : ThinkCPP_autogen/mocs_compilation.cpp.i
+Algorithm_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Algorithm_autogen/mocs_compilation.cpp.i
+.PHONY : Algorithm_autogen/mocs_compilation.cpp.i
 
-ThinkCPP_autogen/mocs_compilation.s: ThinkCPP_autogen/mocs_compilation.cpp.s
-.PHONY : ThinkCPP_autogen/mocs_compilation.s
+Algorithm_autogen/mocs_compilation.s: Algorithm_autogen/mocs_compilation.cpp.s
+.PHONY : Algorithm_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-ThinkCPP_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ThinkCPP.dir/build.make CMakeFiles/ThinkCPP.dir/ThinkCPP_autogen/mocs_compilation.cpp.s
-.PHONY : ThinkCPP_autogen/mocs_compilation.cpp.s
+Algorithm_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Algorithm_autogen/mocs_compilation.cpp.s
+.PHONY : Algorithm_autogen/mocs_compilation.cpp.s
 
 example/main.o: example/main.cpp.o
 .PHONY : example/main.o
@@ -216,6 +268,54 @@ example/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/example/main.cpp.s
 .PHONY : example/main.cpp.s
 
+example/sort_main.o: example/sort_main.cpp.o
+.PHONY : example/sort_main.o
+
+# target to build an object file
+example/sort_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sortMain.dir/build.make CMakeFiles/sortMain.dir/example/sort_main.cpp.o
+.PHONY : example/sort_main.cpp.o
+
+example/sort_main.i: example/sort_main.cpp.i
+.PHONY : example/sort_main.i
+
+# target to preprocess a source file
+example/sort_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sortMain.dir/build.make CMakeFiles/sortMain.dir/example/sort_main.cpp.i
+.PHONY : example/sort_main.cpp.i
+
+example/sort_main.s: example/sort_main.cpp.s
+.PHONY : example/sort_main.s
+
+# target to generate assembly for a file
+example/sort_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sortMain.dir/build.make CMakeFiles/sortMain.dir/example/sort_main.cpp.s
+.PHONY : example/sort_main.cpp.s
+
+example/unionFind_main.o: example/unionFind_main.cpp.o
+.PHONY : example/unionFind_main.o
+
+# target to build an object file
+example/unionFind_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unionfind.dir/build.make CMakeFiles/unionfind.dir/example/unionFind_main.cpp.o
+.PHONY : example/unionFind_main.cpp.o
+
+example/unionFind_main.i: example/unionFind_main.cpp.i
+.PHONY : example/unionFind_main.i
+
+# target to preprocess a source file
+example/unionFind_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unionfind.dir/build.make CMakeFiles/unionfind.dir/example/unionFind_main.cpp.i
+.PHONY : example/unionFind_main.cpp.i
+
+example/unionFind_main.s: example/unionFind_main.cpp.s
+.PHONY : example/unionFind_main.s
+
+# target to generate assembly for a file
+example/unionFind_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unionfind.dir/build.make CMakeFiles/unionfind.dir/example/unionFind_main.cpp.s
+.PHONY : example/unionFind_main.cpp.s
+
 main_autogen/mocs_compilation.o: main_autogen/mocs_compilation.cpp.o
 .PHONY : main_autogen/mocs_compilation.o
 
@@ -240,6 +340,102 @@ main_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s
 .PHONY : main_autogen/mocs_compilation.cpp.s
 
+sortMain_autogen/mocs_compilation.o: sortMain_autogen/mocs_compilation.cpp.o
+.PHONY : sortMain_autogen/mocs_compilation.o
+
+# target to build an object file
+sortMain_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sortMain.dir/build.make CMakeFiles/sortMain.dir/sortMain_autogen/mocs_compilation.cpp.o
+.PHONY : sortMain_autogen/mocs_compilation.cpp.o
+
+sortMain_autogen/mocs_compilation.i: sortMain_autogen/mocs_compilation.cpp.i
+.PHONY : sortMain_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sortMain_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sortMain.dir/build.make CMakeFiles/sortMain.dir/sortMain_autogen/mocs_compilation.cpp.i
+.PHONY : sortMain_autogen/mocs_compilation.cpp.i
+
+sortMain_autogen/mocs_compilation.s: sortMain_autogen/mocs_compilation.cpp.s
+.PHONY : sortMain_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sortMain_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sortMain.dir/build.make CMakeFiles/sortMain.dir/sortMain_autogen/mocs_compilation.cpp.s
+.PHONY : sortMain_autogen/mocs_compilation.cpp.s
+
+src/stack.o: src/stack.cpp.o
+.PHONY : src/stack.o
+
+# target to build an object file
+src/stack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/src/stack.cpp.o
+.PHONY : src/stack.cpp.o
+
+src/stack.i: src/stack.cpp.i
+.PHONY : src/stack.i
+
+# target to preprocess a source file
+src/stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/src/stack.cpp.i
+.PHONY : src/stack.cpp.i
+
+src/stack.s: src/stack.cpp.s
+.PHONY : src/stack.s
+
+# target to generate assembly for a file
+src/stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/src/stack.cpp.s
+.PHONY : src/stack.cpp.s
+
+src/unionFind.o: src/unionFind.cpp.o
+.PHONY : src/unionFind.o
+
+# target to build an object file
+src/unionFind.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/src/unionFind.cpp.o
+.PHONY : src/unionFind.cpp.o
+
+src/unionFind.i: src/unionFind.cpp.i
+.PHONY : src/unionFind.i
+
+# target to preprocess a source file
+src/unionFind.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/src/unionFind.cpp.i
+.PHONY : src/unionFind.cpp.i
+
+src/unionFind.s: src/unionFind.cpp.s
+.PHONY : src/unionFind.s
+
+# target to generate assembly for a file
+src/unionFind.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/src/unionFind.cpp.s
+.PHONY : src/unionFind.cpp.s
+
+unionfind_autogen/mocs_compilation.o: unionfind_autogen/mocs_compilation.cpp.o
+.PHONY : unionfind_autogen/mocs_compilation.o
+
+# target to build an object file
+unionfind_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unionfind.dir/build.make CMakeFiles/unionfind.dir/unionfind_autogen/mocs_compilation.cpp.o
+.PHONY : unionfind_autogen/mocs_compilation.cpp.o
+
+unionfind_autogen/mocs_compilation.i: unionfind_autogen/mocs_compilation.cpp.i
+.PHONY : unionfind_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+unionfind_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unionfind.dir/build.make CMakeFiles/unionfind.dir/unionfind_autogen/mocs_compilation.cpp.i
+.PHONY : unionfind_autogen/mocs_compilation.cpp.i
+
+unionfind_autogen/mocs_compilation.s: unionfind_autogen/mocs_compilation.cpp.s
+.PHONY : unionfind_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+unionfind_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unionfind.dir/build.make CMakeFiles/unionfind.dir/unionfind_autogen/mocs_compilation.cpp.s
+.PHONY : unionfind_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -248,19 +444,41 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ThinkCPP_autogen"
+	@echo "... Algorithm_autogen"
 	@echo "... main_autogen"
-	@echo "... ThinkCPP"
+	@echo "... sortMain_autogen"
+	@echo "... unionfind_autogen"
+	@echo "... Algorithm"
 	@echo "... main"
-	@echo "... ThinkCPP_autogen/mocs_compilation.o"
-	@echo "... ThinkCPP_autogen/mocs_compilation.i"
-	@echo "... ThinkCPP_autogen/mocs_compilation.s"
+	@echo "... sortMain"
+	@echo "... unionfind"
+	@echo "... Algorithm_autogen/mocs_compilation.o"
+	@echo "... Algorithm_autogen/mocs_compilation.i"
+	@echo "... Algorithm_autogen/mocs_compilation.s"
 	@echo "... example/main.o"
 	@echo "... example/main.i"
 	@echo "... example/main.s"
+	@echo "... example/sort_main.o"
+	@echo "... example/sort_main.i"
+	@echo "... example/sort_main.s"
+	@echo "... example/unionFind_main.o"
+	@echo "... example/unionFind_main.i"
+	@echo "... example/unionFind_main.s"
 	@echo "... main_autogen/mocs_compilation.o"
 	@echo "... main_autogen/mocs_compilation.i"
 	@echo "... main_autogen/mocs_compilation.s"
+	@echo "... sortMain_autogen/mocs_compilation.o"
+	@echo "... sortMain_autogen/mocs_compilation.i"
+	@echo "... sortMain_autogen/mocs_compilation.s"
+	@echo "... src/stack.o"
+	@echo "... src/stack.i"
+	@echo "... src/stack.s"
+	@echo "... src/unionFind.o"
+	@echo "... src/unionFind.i"
+	@echo "... src/unionFind.s"
+	@echo "... unionfind_autogen/mocs_compilation.o"
+	@echo "... unionfind_autogen/mocs_compilation.i"
+	@echo "... unionfind_autogen/mocs_compilation.s"
 .PHONY : help
 
 

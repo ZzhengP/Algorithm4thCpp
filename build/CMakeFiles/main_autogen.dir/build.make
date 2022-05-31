@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.23.1/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zheng/Desktop/Notes/thinkingC++
+CMAKE_SOURCE_DIR = /Users/zheng/Desktop/Notes/Algorith4thC++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zheng/Desktop/Notes/thinkingC++/build
+CMAKE_BINARY_DIR = /Users/zheng/Desktop/Notes/Algorith4thC++/build
 
 # Utility rule file for main_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/main_autogen.dir/compiler_depend.make
 include CMakeFiles/main_autogen.dir/progress.make
 
 CMakeFiles/main_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target main"
-	/usr/local/Cellar/cmake/3.23.1/bin/cmake -E cmake_autogen /Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/main_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target main"
+	/usr/local/Cellar/cmake/3.23.1/bin/cmake -E cmake_autogen /Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/main_autogen.dir/AutogenInfo.json ""
 
 main_autogen: CMakeFiles/main_autogen
 main_autogen: CMakeFiles/main_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/main_autogen.dir/clean:
 .PHONY : CMakeFiles/main_autogen.dir/clean
 
 CMakeFiles/main_autogen.dir/depend:
-	cd /Users/zheng/Desktop/Notes/thinkingC++/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zheng/Desktop/Notes/thinkingC++ /Users/zheng/Desktop/Notes/thinkingC++ /Users/zheng/Desktop/Notes/thinkingC++/build /Users/zheng/Desktop/Notes/thinkingC++/build /Users/zheng/Desktop/Notes/thinkingC++/build/CMakeFiles/main_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zheng/Desktop/Notes/Algorith4thC++/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zheng/Desktop/Notes/Algorith4thC++ /Users/zheng/Desktop/Notes/Algorith4thC++ /Users/zheng/Desktop/Notes/Algorith4thC++/build /Users/zheng/Desktop/Notes/Algorith4thC++/build /Users/zheng/Desktop/Notes/Algorith4thC++/build/CMakeFiles/main_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main_autogen.dir/depend
 
