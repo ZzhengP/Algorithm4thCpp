@@ -57,10 +57,10 @@
         "-Wno-documentation-unknown-command",
         "-Wall",
         "-Wextra",
-        "/Users/zheng/Desktop/Notes/Algorith4thC++/src/stack.cpp"
+        "/Users/zheng/Desktop/Notes/CppProg/src/stack.cpp"
     ],
     "directory": "/Users/zheng/Desktop/Notes/Algorith4thC++/build/.qtc_clangd",
-    "file": "/Users/zheng/Desktop/Notes/Algorith4thC++/src/stack.cpp"
+    "file": "/Users/zheng/Desktop/Notes/CppProg/src/stack.cpp"
 },
 {
     "arguments": [
@@ -120,10 +120,10 @@
         "-Wno-documentation-unknown-command",
         "-Wall",
         "-Wextra",
-        "/Users/zheng/Desktop/Notes/Algorith4thC++/src/unionFind.cpp"
+        "/Users/zheng/Desktop/Notes/CppProg/src/unionFind.cpp"
     ],
     "directory": "/Users/zheng/Desktop/Notes/Algorith4thC++/build/.qtc_clangd",
-    "file": "/Users/zheng/Desktop/Notes/Algorith4thC++/src/unionFind.cpp"
+    "file": "/Users/zheng/Desktop/Notes/CppProg/src/unionFind.cpp"
 },
 {
     "arguments": [
@@ -170,10 +170,10 @@
         "-Wno-documentation-unknown-command",
         "-Wall",
         "-Wextra",
-        "/Users/zheng/Desktop/Notes/Algorith4thC++/example/main.cpp"
+        "/Users/zheng/Desktop/Notes/CppProg/example/main.cpp"
     ],
     "directory": "/Users/zheng/Desktop/Notes/Algorith4thC++/build/.qtc_clangd",
-    "file": "/Users/zheng/Desktop/Notes/Algorith4thC++/example/main.cpp"
+    "file": "/Users/zheng/Desktop/Notes/CppProg/example/main.cpp"
 },
 {
     "arguments": [
@@ -220,10 +220,10 @@
         "-Wno-documentation-unknown-command",
         "-Wall",
         "-Wextra",
-        "/Users/zheng/Desktop/Notes/Algorith4thC++/example/sort_main.cpp"
+        "/Users/zheng/Desktop/Notes/CppProg/example/sort_main.cpp"
     ],
     "directory": "/Users/zheng/Desktop/Notes/Algorith4thC++/build/.qtc_clangd",
-    "file": "/Users/zheng/Desktop/Notes/Algorith4thC++/example/sort_main.cpp"
+    "file": "/Users/zheng/Desktop/Notes/CppProg/example/sort_main.cpp"
 },
 {
     "arguments": [
@@ -270,9 +270,9 @@
         "-Wno-documentation-unknown-command",
         "-Wall",
         "-Wextra",
-        "/Users/zheng/Desktop/Notes/Algorith4thC++/example/unionFind_main.cpp"
+        "/Users/zheng/Desktop/Notes/CppProg/example/unionFind_main.cpp"
     ],
     "directory": "/Users/zheng/Desktop/Notes/Algorith4thC++/build/.qtc_clangd",
-    "file": "/Users/zheng/Desktop/Notes/Algorith4thC++/example/unionFind_main.cpp"
+    "file": "/Users/zheng/Desktop/Notes/CppProg/example/unionFind_main.cpp"
 }
 ]

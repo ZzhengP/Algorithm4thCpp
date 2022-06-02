@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Algorithm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Algorithm::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Algorithm-130abb4a6aab713d486e.json",
+					"name" : "Algorithm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Algorithm_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Algorithm_autogen-476cf21ca8798275dcac.json",
+					"name" : "Algorithm_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-86c77e391f74f90953a3.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main_autogen-ea012bc60cc90a6ca4d1.json",
+					"name" : "main_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sortMain::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sortMain-5defafba2f4e01f489e0.json",
+					"name" : "sortMain",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sortMain_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sortMain_autogen-27073ee70c62a0210da0.json",
+					"name" : "sortMain_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unionfind::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unionfind-0be50c5385f86d94bee5.json",
+					"name" : "unionfind",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "unionfind_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-unionfind_autogen-62dbe3f7693203856884.json",
+					"name" : "unionfind_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/zheng/Desktop/Notes/Algorith4thC++/build",
+		"source" : "/Users/zheng/Desktop/Notes/Algorith4thC++"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
